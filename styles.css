@@ -5,6 +5,7 @@ body {
 }
 
 section{
+    display: flex;
    
 }
 
@@ -12,12 +13,18 @@ section{
     width: 300px;
     height: 300px;
     background-color: rgb(25, 122, 154);
-    
+    margin-right: 5%;
+    padding-bottom: 5%;
+    border-left:solid 20px white;
+    border-bottom:solid 20px white;
+       
 }
 
 .box2 {
     width: 300px;
     height: 300px;
     background-color: lightblue;
+    padding-left: 5%;
+    border: solid 10px white;
     
 }
